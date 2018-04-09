@@ -1,3 +1,4 @@
+'use strict';
 
 function move(collection, fromIndex, toIndex) {
     var result = [];
