@@ -1,0 +1,14 @@
+{
+  "name": "array-move-faster",
+  "version": "1.0.0",
+  "description": "Pure function for moving an item in an array from an index to an index. Returnns a copy. Significantly fster than the common double splice implemention",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.4.3"
+  }
+}
