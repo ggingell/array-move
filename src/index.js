@@ -8,7 +8,7 @@ function move(collection, fromIndex, toIndex) {
 
   for (var index = 0; index < collection.length; index++) {
     var offset = index >= start && index <= end ? shift : 0;
-    result.push(collection[index + offset]);
+    result[index] = collection[index + offset];
   }
 
   result[toIndex] = collection[fromIndex];

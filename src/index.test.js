@@ -1,4 +1,3 @@
-
 var move = require('./');
 
 describe('move', function () {
@@ -33,15 +32,4 @@ describe('move', function () {
         expect(move(CASE_C, 0, 5)).toEqual(['b','c','d','e','f','a']);
         expect(move(CASE_C, 5, 0)).toEqual(['f','a','b','c','d','e']);
     });
-
-    function _arrayMove(x, from, to) {
-        x.splice((to < 0 ? x.length + to : to), 0, x.splice(from, 1)[0]);
-    }
-
-    function arrayMove(x, from, to) {
-        x = x.slice();
-        _arrayMove(x, from, to);
-        return x;
-    };
-
 });
